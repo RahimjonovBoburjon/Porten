@@ -1,0 +1,155 @@
+.footer-top {
+    background: url(../imeges/Rectangle\ 15.jpg)no-repeat center / cover;
+}
+
+.footer__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.f-card__column {
+    display: table;
+    width: 32%;
+    padding-top: 80px;
+}
+
+.f-card__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.f-card__subtitle {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.f-card__form {
+    width: 100%;
+    margin: 13px 0 17px;
+    display: flex;
+    color: #fff;
+}
+
+.f-card__email {
+    width: 60%;
+    padding: 20px 20px;
+    outline: none;
+    border: none;
+    background: rgb(185, 185, 185);
+    color: #000;
+}
+
+.f-card__block1 {
+    display: flex;
+    column-gap: 20px;
+    padding-top: 28px;
+}
+
+.f-card__block2 {
+    display: flex;
+    padding-top: 20px;
+    column-gap: 20px;
+}
+
+.f-card__bigbtn {
+    width: 40%;
+    padding: 16px 18px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #000;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: 300ms;
+}
+
+.f-card__bigbtn:hover {
+    background: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.f-card__btn {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #D0D0D0;
+    background: #000;
+    padding: 10px 20px;
+    transition: 500ms;
+    border: 3px solid transparent;
+}
+
+.f-card__btn:hover {
+    background: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+@media (max-width: 830px) {
+    .f-card__bigbtn {
+        font-size: 8px;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer__wrapper {
+        display: table;
+    }
+
+    .f-card__column {
+        width: 100%;
+        text-align: center;
+        padding: 0 50px;
+    }
+
+    .f-card__form {
+        padding: 0 100px;
+    }
+
+    .f-card__subtitle {
+        font-size: 16px;
+    }
+
+    .f-card__title {
+        font-size: 34px;
+        padding-top: 25px;
+    }
+
+    .f-card__btn {
+        font-size: 25px;
+    }
+
+    .f-card__blockbtn {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 540px) {
+    .f-card__btn {
+        font-size: 20px;
+    }
+}

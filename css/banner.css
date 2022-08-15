@@ -1,0 +1,55 @@
+.banner__top {
+    background: url(../imeges/Rectangle3.jpg) no-repeat center / cover;
+}
+
+.banner__wrapper {
+    width: 100%;
+}
+
+.b-card__big-block {
+    padding-top: 160px;
+}
+
+.b-card__block {
+    display: block;
+    margin: 0 auto;
+    width: 320px;
+    height: 320px;
+    border: 4px solid #FFFFFF;
+}
+
+.b-card__img {
+    padding-top: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+.b-card__subtitle {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 8px;
+}
+
+.b-card__title {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 84px 14%;
+}
+
+@media (max-width: 1130px) {
+    .banner__top {
+        width: 100%;
+    }
+}

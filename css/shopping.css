@@ -1,0 +1,102 @@
+.shopping-top {
+    background-color: #000;
+}
+
+.shopping__wrapper {
+    width: 100%;
+}
+
+.p-card__clock-img {
+    width: 100%;
+}
+
+.p-card__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.p-card__line {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+
+.p-card__bossclock {
+    display: block;
+    padding-bottom: 150px;
+}
+
+.p-card__big-clock {
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+    flex-wrap: wrap;
+}
+
+.p-card__clock {
+    border: 1px solid transparent;
+    transition: 400ms;
+}
+
+.p-card__clock:hover {
+    border: 1px solid #fff;
+}
+
+.p-card__clock-text {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+
+
+.p-card__clock-price {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+    padding-top: 10px;
+}
+
+
+@media (max-width: 1138px) {
+    .p-card__clock {
+        width: 48%;
+    }
+}
+
+@media (max-width: 530px) {
+    .p-card__clock {
+        width: 100%;
+    }
+
+    .p-card__clock-text {
+        font-size: 30px !important;
+    }
+
+    .p-card__clock-price {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 620px) {
+    .p-card__clock-text {
+        font-size: 14px;
+    }
+}
+

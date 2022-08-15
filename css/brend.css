@@ -1,0 +1,61 @@
+.brend {
+    background: #0F0F0F;
+}
+
+.r-card__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+
+.r-card__bigline {
+    padding: 40px;
+}
+
+.r-card__line {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+
+.r-card__imgblock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.r-card__img1 {
+    width: 22%;
+}
+
+@media (max-width: 922px) {
+    .r-card__imgblock {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 922px) {
+    .r-card__img1 {
+        width: 45%;
+    }
+}
+
+@media (max-width: 574px) {
+    .r-card__img1 {
+        width: 100%;
+    }
+
+    .r-card__title {
+        font-size: 44px;
+    }
+
+}

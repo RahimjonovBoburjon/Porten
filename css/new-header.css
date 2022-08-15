@@ -1,0 +1,148 @@
+/* HEADER START*/
+
+.new-header__top {
+    background: #0F0F0F;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0F0F0F;
+    transition: 500ms;
+}
+
+.h-card__logo-bl {
+    width: 106px;
+}
+
+.h-card__logo {
+    width: 100%;
+}
+
+.h-card__menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 auto;
+}
+
+.h-card__link {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #969696;
+    padding: 31px 20px;
+    opacity: 0.8;
+    transition: 300ms;
+}
+
+.h-card__link:hover {
+    color: #fff;
+    cursor: pointer;
+    background: #1F1F1F;
+}
+
+.new-header__functions {
+    display: flex;
+    gap: 0 45px;
+    align-items: center;
+}
+
+.functions__link {
+    color: #fff;
+    font-size: 15px;
+    transition: 400ms;
+    opacity: 0.8;
+}
+
+.functions__link:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+.header__burger {
+    width: 30px;
+    height: 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+}
+
+.header__line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    background: #fff;
+    transition: 400ms;
+}
+
+@media (max-width: 1100px) {
+    .h-card__link {
+        font-size: 12px;
+        padding: 11px 11px;
+    }
+}
+
+@media (max-width: 565px) {
+    .h-card__link {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 510px) {
+    .h-card__menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        background: #0F0F0F;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: 500ms;
+        transform: translate(-110%);
+        padding: 20px;
+        z-index: 100;
+    }
+
+    .header__nav {
+        padding: 15px 0;
+    }
+
+    .header__nav.open .h-card__menu {
+        transform: translate(0);
+    }
+
+    .header__nav.open .header__line:nth-child(1) {
+        transform: rotate(45deg) translate(10px, 5px);
+    }
+
+    .header__nav.open .header__line:nth-child(2) {
+        transform: translate(-100%);
+        opacity: 0;
+    }
+
+    .header__nav.open .header__line:nth-child(3) {
+        transform: rotate(-45deg) translate(10px, -5px);
+    }
+
+    .h-card__link{
+        width: 100%;
+        font-size: 22px;
+        padding: 30px;
+    }
+
+    .functions__link {
+        font-size: 22px;
+        padding: 30px;
+    }
+
+    .header__burger {
+        display: flex;
+    }
+}

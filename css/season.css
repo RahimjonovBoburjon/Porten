@@ -1,0 +1,170 @@
+.season__wrapper {
+    width: 100%;
+    display: flex;
+    background-color: #000;
+}
+
+.s-card__left {
+    width: 54%;
+}
+
+.s-card__big-clock {
+    display: flex;
+    column-gap: 50px;
+    padding: 50px 30px;
+}
+
+.s-card__clock {
+    border: 1px solid transparent;
+    transition: 400ms;
+}
+
+.s-card__clock:hover {
+    border: 1px solid #fff;
+}
+
+.s-card__clock-img {
+    width: 100%;
+}
+
+.s-card__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 93px;
+    padding-bottom: 50px;
+}
+
+.s-card__clock-text {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+
+.s-card__clock-price {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+    padding-top: 10px;
+}
+
+
+.s-card__line {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+
+.s-card__right {
+    width: 46%;
+}
+
+.s-card__block {
+    padding-top: 484px;
+    padding-bottom: 40px;
+}
+
+.s-card__new-text {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.s-card__bigline {
+    padding: 30px 0;
+}
+
+.s-card__btn {
+    display: table;
+    margin: 0 auto;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    background: transparent;
+    color: #fff;
+    padding: 16px 35px;
+    transition: 500ms;
+    border: 2px solid #fff;
+}
+
+.s-card__btn:hover {
+    color: #000;
+    background: #fff;
+    border: 2px solid #fff;
+}
+
+.s-card__img {
+    background: url(../imeges/Rectangle\ 8.png)no-repeat 0 0 / cover;
+}
+
+@media (max-width: 620px) {
+    .s-card__clock-text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 860px) {
+    .s-card__new-text {
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width: 620px) {
+    .s-card__clock-price {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    .s-card__big-clock {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .s-card__clock:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .season__wrapper {
+        display: table;
+    }
+    
+    .s-card__clock:nth-child(3) {
+        display: table;
+    }
+
+    .s-card__right {
+        width: 100%;
+    }
+   
+    .s-card__left {
+        width: 100%;
+    }
+}

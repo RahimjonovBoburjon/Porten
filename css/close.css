@@ -1,0 +1,49 @@
+.close__top {
+    background: #000;
+}
+
+.c-card__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.c-card__left {
+    display: flex;
+}
+
+.c-card__title {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+}
+
+.c-card__title-active {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #D0D0D0;
+}
+
+.c-card__btn {
+    transition: 400ms;
+}
+
+.c-card__btn:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+@media (max-width: 510px) {
+    .close__top {
+        display: none !important;
+    }
+}

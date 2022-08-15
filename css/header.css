@@ -1,0 +1,48 @@
+.header__top {
+    background: #000;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.header__left {
+    display: flex;
+}
+
+.header__text {
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+    padding: 0 2px;
+}
+
+.header__btn {
+    transition: 400ms;
+}
+
+.header__btn:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.fa-phone:before {
+    padding: 0 3px;
+}
+
+
+@media (max-width: 510px) {
+    .header__top {
+        display: none;
+    }
+}
+
+
+@media (max-width: 538px) {
+    .header__text {
+        font-size: 10px;
+    }
+}
